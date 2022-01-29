@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <h1>Let minions do the talking</h1>
+    <style>
+        body{
+            background-color:bisque;
+        }
+        h1{
+            display:grid;
+            grid-template-columns: auto;
+            text-align: center;
+            color:white;
+            background-color: purple;
+        }
+        textarea{
+            display:block;
+            width:500px;
+            height:100px;
+            margin:auto;
+            padding: 1rem;
+            background-color:whitesmoke;
+            font-size: medium;
+        }
+        #outputtext{
+            border:1px solid black;
+            height:100px;
+            width:500px;
+            margin:auto;
+            padding: 1rem;
+            background-color: cornsilk;
+        }
+        button{
+            height:25px;
+            width:70px;
+            margin:auto;
+            color:black;
+            background-color: greenyellow;
+            display:block
+        }
+    </style>
+</head>
+<body>
+    <textarea id="inputtext" placeholder="Write something and we will translate it to pirate language"></textarea>
+    <br>
+    <button id="button1">Translate</button>
+    <br>
+    <div id="outputtext"></div>
+    <script src="translate.js"></script>
+    
+</body>
+</html>
